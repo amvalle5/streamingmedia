@@ -8,3 +8,7 @@ body {
     background-color: #FFFFFF;
     display: grid;
 }
+
+nav {
+    grid-column:2/3
+}
