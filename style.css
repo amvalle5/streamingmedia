@@ -7,6 +7,8 @@ body {
     width: 375px;
     margin: 0 auto;
     background-color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
 }
 
 header {
