@@ -21,9 +21,9 @@ h1, h2, h3 {
 }
 
 h2, h3 {
-    font-size: 1em;
+    font-size: 20px;
     color: #590242;
-
+    line-height: 1em;
 }
 
 header, p, h1, h2 {
@@ -52,6 +52,7 @@ nav h2 {
 }
 
 ul {
+    list-style: hidden;
     overflow: hidden;
     max-height: 0;
     transition: max-height .2s ease-out;
