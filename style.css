@@ -58,6 +58,29 @@ ul {
     transition: max-height .2s ease-out;
 }
 
+li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+[href="home"] {
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 16px 16px;
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    z-index: 1;
+}
+
+a:hover, input:hover {
+    background-color: #590242;
+}
+
 label {
     cursor: pointer;
     display: inline-block;
