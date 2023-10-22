@@ -52,8 +52,11 @@ nav h2 {
 }
 
 ul {
-    list-style: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
     overflow: hidden;
+    background-color: #2104D9;
     max-height: 0;
     transition: max-height .2s ease-out;
 }
