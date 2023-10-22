@@ -217,3 +217,9 @@ audio {
 #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
 
 }
+
+
+footer {
+    text-align: center;
+    color: #590242;
+}
