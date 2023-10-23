@@ -13,7 +13,7 @@ body {
 
 header {
     color: #ffffff;
-    background-image: linear-gradient(to right, #2104D9, #020659, #000000;);
+    background: linear-gradient(to right, #2104D9, #020659, #000000);
     padding: 5px 25px;
 }
 
@@ -264,9 +264,39 @@ audio::-webkit-media-controls-enclosure {
     text-align: center;
 }
 
-footer {
+#playlists div {
+    display: flex;
+    overflow: scroll;
+    background-color: #0D8DFB;
+}
+
+#playlistsbutton p {
+    grid-area: button;
+}
+
+#curated {
+    display: flex;
+    background-color: #030A8C;
+    overflow: scroll;
+}
+ 
+#curated h2 {
+    background-color: #FFFFFF;
+}
+
+#curated section {
+    display: grid;
+    background-color: #020873;
+    margin: 10px;
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer p {
     text-align: center;
     color: #590242;
+    font-size: .75 em;
 }
 
 @media screen and (min-width:834px) {
