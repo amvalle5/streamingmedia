@@ -249,6 +249,20 @@ audio::-webkit-media-controls-enclosure {
     "button";
 }
 
+#playlists h2 {
+    display: grid;
+    background-color: #FFFFFF;
+    grid-area: title;
+}
+
+#playlists section {
+    grid-area: content;
+    background-color: #0D8DFB;
+    margin: 10px;
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
 
 footer {
     text-align: center;
