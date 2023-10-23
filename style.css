@@ -61,6 +61,15 @@ li {
     padding: 10px 0;
 }
 
+li:hover {
+    background-color: #590242;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 [href="#home"] {
     text-transform: capitalize;
     font-variant: small-caps;
