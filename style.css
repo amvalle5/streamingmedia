@@ -56,7 +56,7 @@ ul {
 }
 
 li {
-    padding-right: 20px;
+    padding-right: 30px;
     text-align: center;
     padding: 10px 0;
 }
@@ -74,16 +74,10 @@ a {
     text-transform: capitalize;
     font-variant: small-caps;
     font-weight: bold;
-    font-size: 30px;
-    padding: 16px 16px;
     position: absolute;
-    top: 0px;
-    left: 90px;
-    z-index: 1;
-}
-
-a:hover, input:hover {
-    background-color: #590242;
+    top: 60px;
+    left: 155px;
+    
 }
 
 label {
@@ -137,19 +131,6 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     top: 0;
 }
 
-@media screen and (min-width:834px) {
-    ul {
-        overflow: visible;
-        position: absolute;
-        top: 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-    label span, input {
-        display: none;
-    }
-}
-
 .scroll {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -169,6 +150,10 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     padding: 5px;
     height: 50px;
     width: 350px;
+}
+
+p, dl, dt {
+    font-size: 1em;
 }
 
 dl {
@@ -226,4 +211,17 @@ audio {
 footer {
     text-align: center;
     color: #590242;
+}
+
+@media screen and (min-width:834px) {
+    ul {
+        overflow: visible;
+        position: absolute;
+        top: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    label span, input {
+        display: none;
+    }
 }
