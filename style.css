@@ -158,10 +158,14 @@ p, dl, dt {
 
 dl {
     display: flex;
+    position: relative;
+    bottom: 10px;
 }
 
 dt {
     padding-right: 5px;
+    position: relative;
+    bottom: 10px;
 }
 
 audio {
@@ -181,6 +185,8 @@ audio {
     text-align: center;
     margin: 10px 0 30px 32px;
 }
+
+
 
 #trending ::-webkit-scrollbar {
 
