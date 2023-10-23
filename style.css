@@ -55,6 +55,12 @@ ul {
     transition: max-height .2s ease-out;
 }
 
+li {
+    padding-right: 20px;
+    text-align: center;
+    padding: 10px 0;
+}
+
 [href="#home"] {
     text-transform: capitalize;
     font-variant: small-caps;
