@@ -237,6 +237,18 @@ audio::-webkit-media-controls-enclosure {
     background: #FFFFFF;
 }
 
+#trending {
+    color: #590242;
+}
+
+#playlists {
+    display: grid;
+    grid-template-areas:
+    "title"
+    "content"
+    "button";
+}
+
 
 footer {
     text-align: center;
