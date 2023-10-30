@@ -299,13 +299,30 @@ footer p {
     font-size: .75 em;
 }
 
-@media screen and (min-width:834px) {
+@media screen and (min-width:500px) {
+    body {
+        margin: 0 auto;
+        width: 834px;
+    }
+    main {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        width: 834px;
+    }
+    #trending {
+        grid-column: 1/3;
+        display: flex;
+    }
+    #playlists {
+        grid-column: 1/2;
+    }
     ul {
         overflow: visible;
         position: absolute;
         top: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        list-style: none;
     }
     label span, input {
         display: none;
