@@ -299,15 +299,15 @@ footer p {
     font-size: .75 em;
 }
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:834px) {
     body {
         margin: 0 auto;
-        width: 834px;
+        
     }
     main {
         display:grid;
         grid-template-columns: 1fr 1fr;
-        width: 834px;
+        
     }
     #trending {
         grid-column: 1/3;
